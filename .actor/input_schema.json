@@ -1,0 +1,34 @@
+{
+  "title": "Dubai DLD ROI & B2B Compliance Enricher Input",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "mode": {
+      "title": "Execution Mode",
+      "type": "string",
+      "description": "Select DLD ROI Simulation, B2B Compliance Audit, or Combined Enrichment",
+      "enum": ["dld_roi_simulation", "b2b_compliance_audit", "combined"],
+      "default": "combined"
+    },
+    "community": {
+      "title": "Dubai Community / Area",
+      "type": "string",
+      "description": "Target area in Dubai (e.g., Dubai Marina, Business Bay, Downtown Dubai, JVC, Palm Jumeirah)",
+      "default": "Business Bay"
+    },
+    "propertyPriceAed": {
+      "title": "Property Price (AED)",
+      "type": "integer",
+      "description": "Purchase price in AED",
+      "default": 2500000
+    },
+    "targetUrls": {
+      "title": "Target B2B Websites for Compliance & Contact Audit",
+      "type": "array",
+      "description": "List of public URLs to audit for WCAG 2.2 accessibility, Trakheesi QR compliance, and contact metadata",
+      "editor": "stringList",
+      "default": ["https://famproperties.com", "https://metropolitan.realestate"]
+    }
+  },
+  "required": ["mode"]
+}

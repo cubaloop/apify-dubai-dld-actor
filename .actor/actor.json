@@ -1,0 +1,12 @@
+{
+  "actorSpecification": 1,
+  "name": "dubai-dld-roi-and-b2b-compliance-actor",
+  "title": "Dubai DLD Real Estate ROI Simulator & B2B Web Compliance Enricher",
+  "description": "Commercial Pay-Per-Event Actor that calculates Dubai Land Department (DLD) net yields, 5-year appreciation, mortgage cashflows, and audits B2B agency websites for WCAG 2.2 Accessibility & DLD Trakheesi QR compliance.",
+  "version": "1.0",
+  "meta": {
+    "templateId": "python-start"
+  },
+  "input": "./input_schema.json",
+  "dockerfile": "../Dockerfile"
+}

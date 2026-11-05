@@ -1,0 +1,14 @@
+{
+  "events": {
+    "dld_roi_result": {
+      "title": "Dubai DLD Property ROI & 5-Year Cashflow Simulation",
+      "description": "Calculates net rental yield, DLD fees, service charges, and 5-year appreciation per property",
+      "priceUsd": 0.05
+    },
+    "b2b_compliance_audit": {
+      "title": "B2B Website WCAG 2.2 & DLD Trakheesi Compliance Audit",
+      "description": "Audits public web pages for accessibility, Trakheesi/RERA compliance, and contact metadata",
+      "priceUsd": 0.03
+    }
+  }
+}
